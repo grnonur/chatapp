@@ -1,4 +1,4 @@
-const socket = io.connect('http://127.0.0.1:3000')
+const socket = io.connect('https://devonchat.herokuapp.com/')
 
 
 const sender = document.getElementById('sender');
