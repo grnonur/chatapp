@@ -17,7 +17,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 const server = app.listen(port, (req, res) => {
-    console.log(`Sunucu Aktif! http://127.0.0.1:${port}`);
+    console.log(`Sunucu Aktif!`);
 })
 
 const io = new Server(server);
